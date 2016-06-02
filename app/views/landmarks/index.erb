@@ -1,0 +1,5 @@
+<h2>Landmarks:</h2>
+
+<% Landmark.all.each do |landmark| %>
+  <p><a href='/landmarks/<%= landmark.id %>'><%= landmark.name %></a></p>
+<% end %>
